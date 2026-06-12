@@ -52,7 +52,7 @@ public class WordSearch {
         }
 
         if (x < 0 || y < 0 || x >= board.length || y >= board[0].length || board[x][y] != word.charAt(idx)) {
-            System.out.println("666==.");
+            System.out.println("666==1.");
             return false;
         }
 
